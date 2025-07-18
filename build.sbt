@@ -1,17 +1,17 @@
 ThisBuild / tlBaseVersion := "0.0" // your current series x.y
 
 ThisBuild / organization := "com.aahmed"
-ThisBuild / organizationName := "Asef Ahmed"
+ThisBuild / organizationName := "Aarya Ahmed"
 ThisBuild / startYear := Some(2023)
 ThisBuild / licenses := Seq(License.Apache2)
 ThisBuild / developers := List(
-  tlGitHubDev("asefahmed56", "Asef Ahmed")
+  tlGitHubDev("aaryaahmed56", "Aarya Ahmed")
 )
 
 ThisBuild / tlSonatypeUseLegacyHost := false
 
 val scala212 = "2.12.10"
-val scala213 = "2.13.10"
+val scala213 = "2.13.16"
 
 val catsVersion = "2.9.0"
 val munitVersion = "1.0.0-M7"
